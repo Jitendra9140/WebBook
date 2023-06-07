@@ -1,0 +1,251 @@
+:root{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+.cont{ 
+    position: sticky; 
+    width: 100%;
+    background-color: white;
+    height: 4rem;
+    border-bottom: black 1px solid;
+    z-index: 10;
+}
+.cont label{
+    margin-left: 1rem;
+    font-size: 1.3rem;
+    font-weight: 900;
+    line-height: 4rem;
+    color: #7E22CE;
+  
+}
+.cont button a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.cont nav{
+    float: right;
+    margin-right: 15rem;
+}
+.cont nav ul{
+    display: inline-flex;
+    margin-right: 9rem;
+}
+.cont nav ul li{
+   list-style: none;
+   margin-right: 1rem;
+}
+.cont nav ul li a{
+    line-height: 4rem;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.cont nav ul li a:hover{
+    border-bottom: 3px solid #7E22CE ; 
+}
+.cont button{
+   position: relative;
+   right: -62%;
+   font-size: 1rem;
+   border-radius: 10px;
+   padding:.5rem 1rem .5rem 1rem;
+   margin-left: .6rem;
+   background-color: #7E22CE;
+   color: aliceblue;
+   border:5px solid white;
+}
+ button:hover{
+    border:5px solid rgb(217, 165, 227);
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    width: 100%;
+    background-color: white;
+    height: 3rem; 
+    z-index: 10;
+}
+.container1  .home{
+    line-height: 2.5rem;
+    margin-left: 3rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.container1 nav{
+    float: right;
+    position: absolute;  
+    right: 10rem;
+    margin-right:20rem ;
+    margin-top: 14px;
+}
+.container1 nav ul li{
+    display: inline-flex;
+    margin-right: 2rem;
+}
+.container1 nav ul li a{
+    text-decoration: none;
+    line-height: 1rem;
+    font-size: 1.2rem;
+}
+.container1 nav ul li a:hover{
+    border-bottom: 3px solid #7E22CE ; 
+}
+.container1 .input{
+     position: absolute;
+    margin-top: 8px;
+     right: 6rem;
+     padding: .3rem 1.3rem 0.3rem 1.3rem;
+     border:  .2rem solid  #7E22CE;
+     border-radius: 10px;
+    
+}
+
+.container1 .search{
+    position: absolute;
+    right: 2rem;
+    padding: 0.3rem;
+    background-color: white;
+    color: #7E22CE;
+    border: none;
+    /* line-height: 1.5rem; */
+}
+.container1 .search a i{
+    color: #7E22CE;
+    font-size: 1.5rem;
+    line-height: 1rem;
+}
+.con2{
+    display: grid;
+    grid-template-columns: auto auto ;
+    height: 400px;
+}
+.con2 h1{
+    display: inline;
+    position: relative;
+    color: black;
+   font-size: 40px;
+}
+.con2 p{
+    position: relative;
+    top: 9rem;
+    left: 5rem;
+    color: black;
+    font-size: 15px;
+    line-height: 1.5rem;
+}
+
+.imc img{
+    margin-top: 1rem;
+    margin-right: 1rem;
+    border-radius: 244px 10px 135px 10px;
+    float: right;
+}
+  /* CSS */
+ .con2   button {
+    position: relative;
+    top: 11rem ;
+    margin: -9.9rem -5rem -7rem 8rem;
+    background-color: #cf245f;
+    background-image: linear-gradient(to bottom right, #fcd34d, #ef4444, #ec4899);
+    border: 0;
+    border-radius: .25rem;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 0.9rem; /* 18px */
+    font-weight: 600;
+    line-height: 1.75rem; /* 28px */
+    padding: 0.5rem 1.2rem;
+    text-align: center;
+  }
+  .con2 button:hover{
+    background-image: linear-gradient(to bottom right, #172cc6, #3c39d6, #a49ede);
+   }
+.con3{
+     display: flex;
+     width: 100%;
+     height: 700px;
+}  
+.card{
+    margin: 4rem 3rem 3rem 3rem;
+    width: 400px;
+    height: 550px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    z-index: 2;
+}
+.card-item{
+    width: 400px;
+    height: 240px;
+    border-radius: 20px;
+    z-index: 3.5;
+    
+}
+.card-item img{
+    width: 400px;
+    height: 240px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+ .card button {
+    position: relative;
+    margin: 1rem 0rem 0rem 1rem;
+    background-color: #cf245f;
+    background-image: linear-gradient(to bottom right, #fcd34d, #ef4444, #ec4899);
+    border: 0;
+    border-radius: .25rem;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 0.9rem; /* 18px */
+    font-weight: 600;
+    line-height: 1.75rem; /* 28px */
+    padding: 0.5rem 1.2rem;
+    text-align: center;
+    z-index: 5;
+  }
+  .card button a{
+    text-decoration: none;
+    color: white;
+  }
+  .card button:hover{
+    background-image: linear-gradient(to bottom right, #94df11, #673413, #be9a23);
+   }
+   .con4{
+    display: flex;
+    flex-direction: row;
+   }
+   .t-item{
+    width: 48%;
+    height: 300px;
+    background-color:  rgb(248,248,255);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+    margin: 2rem;
+   }
+   .con4 {
+    display: inline-flex;
+   }
+   .con4 img{
+    border-radius: 50%;
+    margin: 1rem 2rem 1rem 2rem;
+   }
+   .a{   
+     margin: 2rem 2rem 2rem 40rem;
+   }
+   .a a{
+    padding:0.5rem
+   }
+

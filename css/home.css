@@ -1,0 +1,273 @@
+:root{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+.cont{ 
+    position:fixed; 
+    width: 100%;
+    top: 0px;
+    background-color: white;
+    height: 4rem;
+    border-bottom: black 1px solid;
+    z-index: 10;
+}
+.cont label{
+    margin-left: 1rem;
+    font-size: 1.3rem;
+    font-weight: 900;
+    line-height: 4rem;
+    color: #7E22CE;
+  
+}
+.cont button a{
+    text-decoration: none;
+    color: aliceblue;
+}
+nav{
+    float: right;
+    margin-right: 16rem;
+}
+nav ul{
+    display: inline-flex;
+    margin-right: 9rem;
+}
+nav ul li{
+   list-style: none;
+   margin-right: 1rem;
+}
+nav ul li a{
+    line-height: 4.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover{
+    border-bottom: 3px solid #7E22CE ; 
+}
+.cont button{
+   position: relative;
+   right: -62%;
+   font-size: 1rem;
+   border-radius: 10px;
+   padding:.5rem 1rem .5rem 1rem;
+   margin-left: .6rem;
+   background-color: #7E22CE;
+   color: aliceblue;
+   border:5px solid white;
+}
+.cont button:hover{
+    border:5px solid rgb(217, 165, 227);
+}
+.container1{
+    top:4rem ;
+    display: flex; 
+    flex-direction: row;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    height: 3rem; 
+    z-index: 10;
+    border-top: solid 1px black;
+    border-bottom:solid 1px black ;
+}
+.container1  .home{
+    line-height: 2.5rem;
+    margin-left: 3rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.container1 nav{
+        position: absolute;  
+        right: 10rem;
+       margin-right:20rem ;
+}
+.container1 nav ul li{
+    margin-right: 2rem;
+}
+.container1 nav ul li a{
+    line-height: 2.5rem;
+}
+.container1 .s{  
+    position: absolute;
+    right: 7rem;
+    width: 300px;
+    height: 2.5rem;
+    border-radius: 10px;
+    margin-top: 4px;
+    
+}
+.container1 .input{
+     position: absolute;
+     width: 300px;
+     opacity: 0;
+     height: 2.5rem;
+     border:.2rem solid  #7E22CE;
+     padding: .3rem 1.3rem 0.3rem 1.3rem;
+     border-radius: 10px;  
+}
+.container1 .search{
+    position: absolute;
+    right: 0.8rem;
+    padding: 0.3rem;
+    background-color: white;
+    color: #7E22CE;
+    border: none;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.s .search:hover{
+   font-size:1rem ;  
+}
+
+.container1 .search  i{
+    color: #7E22CE;
+    font-size: 1.3rem;
+    line-height: 1rem;
+}
+.container{
+    position:relative;
+    top: 9rem;
+    height: 20rem;
+    display: flex;
+    height: 25rem;
+}
+.container .inf{
+    text-align: center;
+    justify-content: center;
+     display: flex;
+     gap: 20px;
+     flex-direction: column;
+    flex: 1;
+}
+.container .inf .heading{
+    justify-content: center;
+    height: 3rem;
+    font-size: 20px;
+    display: inline-flex;
+
+}
+.container .inf p{
+ font-size: 20px;
+}
+.container .inf .heading span{
+   color:blueviolet;
+}
+.container .img{
+    flex: 1;
+}
+.container .inf  button { 
+    position: relative;
+   
+    margin: 0rem 2rem 0rem 0rem;
+    background-color: #cf245f;
+    background-image: linear-gradient(to bottom right, #fcd34d, #ef4444, #ec4899);
+    border: 0;
+    border-radius: .25rem;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 0.9rem; /* 18px */
+    font-weight: 600;
+    line-height: 1.75rem; /* 28px */
+    padding: 0.5rem 1.2rem;
+    text-align: center;
+  }
+  .container .inf button:hover{
+    background-image: linear-gradient(to bottom right, #172cc6, #3c39d6, #a49ede);
+   }
+   .container .img img{
+    border-radius: 231px 20px 92px 20px;
+   }
+.con3{
+    display: flex;
+    width: 100%;
+    height: 700px;
+}  
+.card{
+   margin: 0rem 3rem 3rem 3rem;
+   width: 400px;
+   height: 550px;
+   background-color: white;
+   border-radius: 20px;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   z-index: 2;
+}
+.card-item{
+   width: 400px;
+   height: 240px;
+   border-radius: 20px;
+   z-index: 3.5;
+   
+}
+.card-item img{
+   width: 400px;
+   height: 240px;
+   border-radius: 20px;
+   object-fit: cover;
+}
+.card button {
+   position: relative;
+   margin: 1rem 0rem 0rem 1rem;
+   background-color: #cf245f;
+   background-image: linear-gradient(to bottom right, #fcd34d, #ef4444, #ec4899);
+   border: 0;
+   border-radius: .25rem;
+   box-sizing: border-box;
+   color: #fff;
+   cursor: pointer;
+   font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+   font-size: 0.9rem; /* 18px */
+   font-weight: 600;
+   line-height: 1.75rem; /* 28px */
+   padding: 0.5rem 1.2rem;
+   text-align: center;
+   z-index: 5;
+ }
+ .card button a{
+   text-decoration: none;
+   color: #fff;
+   font-size: 15px;
+ }
+ .card button:hover{
+   background: #FC5C7D;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }
+  .t-item{
+    width: 48%;
+    height: 300px;
+    background-color:  rgb(248,248,255);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+    margin: 2rem;
+   }
+  .con4 {
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    color:purple;
+    margin-top: 40px;
+    display: inline-flex;
+   }
+   .con4 img{
+    border-radius: 50%;
+    margin: 1rem 2rem 1rem 2rem;
+   }
+   .a {   
+     margin: 2rem 2rem 2rem 40rem;
+   }
+   .a a{
+    padding:0.5rem
+   }
+
+
